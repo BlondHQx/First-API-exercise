@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+    background: url(https://www.hackthebox.com/images/landingv3/home/bg-hero.svg);
+    background-color: hsl(0, 0%, 25%);
+}
+
+.search_bar {
+    border: 1px solid #aeaeae;
+    background: #ffffff00;
+    color: white;
+}
+
+.search_bar:hover {
+    background-color: #55ff0000;
+    color: white;
+}
+
+.button_search {
+    border: 1px solid #aeaeae;
+}
+
+.card-container {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.poke_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #bcb8ff75;
+    border-radius: 5px;
+    border: 2px solid #5f62ff;
+}
+
+section {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+span {
+    text-align: center;
+}
